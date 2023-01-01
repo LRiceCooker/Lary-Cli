@@ -1,0 +1,56 @@
+Arguments: 
+  /home/ricecooker/.nvm/versions/node/v16.17.1/bin/node /home/ricecooker/.yarn/bin/yarn.js start
+
+PATH: 
+  /home/ricecooker/.yarn/bin:/home/ricecooker/.config/yarn/global/node_modules/.bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/ricecooker/.jbang/bin:/home/ricecooker/.yarn/bin:/home/ricecooker/.config/yarn/global/node_modules/.bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/ricecooker/.jbang/bin:/home/ricecooker/.nvm/versions/node/v16.17.1/bin:/home/ricecooker/.yarn/bin:/home/ricecooker/.config/yarn/global/node_modules/.bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/ricecooker/.sdkman/candidates/springboot/current/bin:/home/ricecooker/.jbang/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/ricecooker/.cargo/bin:/home/ricecooker/.local/bin:/opt/gradle/gradle-5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ricecooker/Sandbox/js/LaryApps/LaryCli/package.json: Unexpected token } in JSON at position 255
+      at JSON.parse (<anonymous>)
+      at /home/ricecooker/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/ricecooker/.yarn/lib/cli.js:310:30)
+      at /home/ricecooker/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "larycli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "tsc --build",
+      "serve": "ts-node ./src",
+      "start": "node ./dist",
+      "lint": "tsc --noEmit && eslint \"**/*.ts\" --quiet --fix",
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/node": "^18.11.17",
+      "@typescript-eslint/eslint-plugin": "^5.47.0",
+      "@typescript-eslint/parser": "^5.47.0",
+      "eslint": "^8.30.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-prettier": "^4.2.1",
+      "prettier": "2.8.1",
+      "ts-node": "^10.9.1",
+      "typescript": "^4.9.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
